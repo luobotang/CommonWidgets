@@ -1,0 +1,40 @@
+.slider-ctrl {
+	position: relative;
+	height: 20px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.slider-bar-total,
+.slider-bar-current {
+	position: absolute;
+	left: 0;
+	width: 100%;
+}
+.slider-bar-total {
+	top: 5px;
+	height: 10px;
+	background: #666;
+	border-radius: 5px;
+}
+.slider-bar-current {
+	top: 6px;
+	height: 8px;
+	background: #fff;
+}
+.slider-left,
+.slider-right {
+	position: absolute;
+	top: 0;
+	width: 14px;
+	height: 18px;
+	border: 1px solid #333;
+	background: #f7f7f7;
+	border-radius: 4px;
+	margin-left: -8px;
+}
+.slider-left:hover,
+.slider-right:hover {
+	background: #fff;
+}

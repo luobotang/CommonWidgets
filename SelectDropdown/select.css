@@ -1,0 +1,36 @@
+.select-ctrl {
+	height: 32px;
+	background: #fff;
+	width: 200px;
+	cursor: default;
+}
+.select-value {
+	height: 30px;
+	border: 1px solid #666;
+}
+.select-options {
+	display: none;
+	list-style: none;
+	position: absolute;
+	width: 198px;
+	height: 180px;
+	z-index: 1;
+	line-height: 30px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	background: #fff;
+	border: 1px solid #666;
+	border-top: 0;
+}
+.select-value,
+.select-options li {
+	padding: 0 10px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	background: #fff;
+}
+.select-options .option-selected,
+.select-options li:hover {
+	background: #eee;
+}
